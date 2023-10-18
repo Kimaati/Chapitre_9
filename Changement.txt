@@ -1,0 +1,26 @@
+Au niveau des changement :
+
+Ajout de balises sémantique : 
+    - Header
+    - Main
+    - Section
+    - Footer
+
+Ajout d'un alt à chaque photo
+
+Ajout du titre de la page "Nina Carducci photographe" ainsi que de la langue du site "fr"
+
+Modification de l'extension des photo de jpg et png à webp
+
+Modification de la couleur de police du filtre
+
+Redimension des images
+
+Minification du css, de maugallery.js et du scripts.js
+
+Méta des réseau mis en place
+
+
+Ce qu'il reste à faire : 
+
+Mettre le référencement local avec schema.org

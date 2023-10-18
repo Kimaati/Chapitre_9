@@ -1,0 +1,2 @@
+# Ignore all .min files:
+**/*.min
