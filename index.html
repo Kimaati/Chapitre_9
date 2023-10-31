@@ -14,26 +14,12 @@
     <title>Nina Carducci photographe</title>
     <meta name="description" content="Site d'une photographe" />
 
-    <!-- Schema.org meta for Google+ -->
-    <meta itemprop="name" content="Nina Carducci photographe" />
-    <meta
-      itemprop="description"
-      content="Site de la photographe Nina Carducci"
-    />
-    <meta itemprop="image" content="./" />
-
     <!-- Twitter summary card with large image must be at least 280x150px -->
     <meta name="twitter:card" content="summary_large_image" />
     <meta name="twitter:site" content="@skyminds" />
     <meta name="twitter:creator" content="@skyminds" />
-    <meta
-      name="twitter:title"
-      content="Nina Carducci photographe"
-    />
-    <meta
-      name="twitter:description"
-      content="Nina Carducci photographe"
-    />
+    <meta name="twitter:title" content="Nina Carducci photographe" />
+    <meta name="twitter:description" content="Nina Carducci photographe" />
     <meta name="twitter:image" content="" />
 
     <!-- Open Graph meta (Facebook, Linkedin) -->
@@ -51,7 +37,6 @@
     <script src="./assets/maugallery.min.js"></script>
     <script src="./assets/scripts.min.js"></script>
   </head>
-
 
   <body>
     <header class="top-header">
@@ -311,7 +296,7 @@
           <p>
             N’hésitez pas à m’écrire ! Je vous répondrais en moins de 24 heures
           </p>
-          <form action="" method="post">
+          <form>
             <label
               >Nom
               <input type="text" name="nom" id="nom" />
@@ -337,5 +322,23 @@
         </div>
       </div>
     </footer>
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org/",
+        "@type": ["LocalBusiness", "Service"],
+        "image": "./assets/images/profil-600.webp",
+        "priceRange": "à partir de 50€",
+        "address": {
+          "@type": "PostalAddress",
+          "addressLocality": "Bordeaux",
+          "postalCode": "33200",
+          "streetAddress": "68 avenue Alsace-Lorraine"
+        },
+
+        "description": "Photographe",
+        "name": "Nina Carducci",
+        "telephone": "0556677889"
+      }
+    </script>
   </body>
 </html>
